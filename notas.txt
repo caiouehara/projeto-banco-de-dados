@@ -1,0 +1,3 @@
+- Corrigir DataType do Sommelie
+- Colocar nome dos trajetos
+- Paradas do Trajeto não faz sentido na modelagem

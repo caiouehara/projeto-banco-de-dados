@@ -9,7 +9,7 @@ AS $$
             WHERE idCliente = NEW.idCliente;
     
         IF cont_recorrencia BETWEEN 10 AND 30 THEN 
-            desconto := 0.01;
+            desconto := 0.10;
         ELSIF cont_recorrencia >= 30 THEN
             desconto := 0.30;
         END IF;
